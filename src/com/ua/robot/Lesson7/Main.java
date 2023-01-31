@@ -19,9 +19,9 @@ public class Main {
         System.out.println();
     }
 
-    static void PrintSymbolNumberOfTimes(int number, String Symbol) {
+    static void PrintSymbolNumberOfTimes(int number, String symbol) {
         for (int i = 0; i < number; i++) {
-            System.out.print(Symbol);
+            System.out.print(symbol);
         }
     }
 }
