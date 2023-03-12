@@ -1,6 +1,6 @@
 package com.ua.robot.Lesson17;
 
-public enum DayOfWeek_Number {
+public enum DayOfWeekNumber {
     MONDAY(1),
     TUESDAY(2),
     WEDNESDAY(3),
@@ -19,12 +19,12 @@ public enum DayOfWeek_Number {
 
     private int number;
 
-    DayOfWeek_Number(int number) {
+    DayOfWeekNumber(int number) {
         this.number = number;
     }
 
     public void getDayName() {
-        for (DayOfWeek_Number day : DayOfWeek_Number.values()) {
+        for (DayOfWeekNumber day : DayOfWeekNumber.values()) {
             if (day.getNumber() == this.number) {
                 System.out.println("Day Name is " + day.name());
             }
