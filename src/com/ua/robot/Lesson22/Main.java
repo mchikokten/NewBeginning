@@ -10,12 +10,12 @@ public class Main {
 
         List<Student> listStudents = new ArrayList<>();
 
-        listStudents.add(new Student("Ivanovenko", "95"));
-        listStudents.add(new Student("Petrenko", "78"));
-        listStudents.add(new Student("Shevchuk", "65"));
-        listStudents.add(new Student("Borodai", "88"));
-        listStudents.add(new Student("Skliarenko", "63"));
-        listStudents.add(new Student("Antoniuk", "80"));
+        listStudents.add(new Student("Ivanovenko", 95));
+        listStudents.add(new Student("Petrenko", 78));
+        listStudents.add(new Student("Shevchuk", 65));
+        listStudents.add(new Student("Borodai", 88));
+        listStudents.add(new Student("Skliarenko", 63));
+        listStudents.add(new Student("Antoniuk", 80));
 
         System.out.println(listStudents);
 
