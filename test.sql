@@ -36,5 +36,6 @@ update city set country_id = 1 where id = 1;
 update city set country_id = 2 where id = 2;
 update city set country_id = 3 where id = 3;
 
+
 select * from city;
 select * from country;
